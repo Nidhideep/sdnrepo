@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Library name="sap.suite.ui.commons">
+<Template name="sap.suite.ui.commons.DateRangeScroller" alias="DateRangeScroller,Scroller">
+	<jsTemplate><![CDATA[new sap.suite.ui.commons.DateRangeScroller({
+	id: "${id}", // sap.ui.core.ID
+	tooltip: undefined, // sap.ui.core.TooltipBase
+	customData: [], // sap.ui.core.CustomData
+	layoutData: undefined, // sap.ui.core.LayoutData
+	ariaDescribedBy: [], // sap.ui.core.Control
+	ariaLabelledBy: [], // sap.ui.core.Control
+	change: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this]
+})
+]]></jsTemplate>
+</Template>
+<Template name="sap.suite.ui.commons.DateRangeSlider" alias="DateRangeSlider,Slider">
+	<jsTemplate><![CDATA[new sap.suite.ui.commons.DateRangeSlider({
+	id: "${id}", // sap.ui.core.ID
+	width: "100%", // sap.ui.core.CSSSize
+	enabled: true, // boolean
+	editable: true, // boolean
+	visible: true, // boolean
+	showBubbles: true, // boolean
+	smallStepWidth: undefined, // float
+	totalUnits: undefined, // int
+	stepLabels: false, // boolean
+	labels: undefined, // string[]
+	min: undefined, // object
+	max: undefined, // object
+	value: undefined, // object
+	value2: undefined, // object
+	pinGrip: false, // boolean
+	pinGrip2: false, // boolean
+	tooltip: undefined, // sap.ui.core.TooltipBase
+	customData: [], // sap.ui.core.CustomData
+	layoutData: undefined, // sap.ui.core.LayoutData
+	change: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	liveChange: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this]
+})
+]]></jsTemplate>
+</Template>
+<Template name="sap.suite.ui.commons.DateRangeSliderInternal" alias="DateRangeSliderInternal,Internal">
+	<jsTemplate><![CDATA[new sap.suite.ui.commons.DateRangeSliderInternal({
+	id: "${id}", // sap.ui.core.ID
+	width: "100%", // sap.ui.core.CSSSize
+	min: 0, // float
+	max: 100, // float
+	value: 50, // float
+	smallStepWidth: undefined, // float
+	totalUnits: undefined, // int
+	stepLabels: false, // boolean
+	visible: true, // boolean
+	editable: true, // boolean
+	enabled: true, // boolean
+	labels: undefined, // string[]
+	vertical: false, // boolean, since 1.7.1
+	height: "100%", // sap.ui.core.CSSSize, since 1.7.1
+	value2: 80, // float
+	showBubbles: true, // boolean
+	pinGrip: false, // boolean
+	pinGrip2: false, // boolean
+	tooltip: undefined, // sap.ui.core.TooltipBase
+	customData: [], // sap.ui.core.CustomData
+	layoutData: undefined, // sap.ui.core.LayoutData
+	ariaDescribedBy: [], // sap.ui.core.Control
+	ariaLabelledBy: [], // sap.ui.core.Control
+	change: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	liveChange: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	change: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	liveChange: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this]
+})
+]]></jsTemplate>
+</Template>
+<Template name="sap.suite.ui.commons.NoteTaker" alias="NoteTaker,Taker">
+	<jsTemplate><![CDATA[new sap.suite.ui.commons.NoteTaker({
+	id: "${id}", // sap.ui.core.ID
+	visibleNotes: 2, // int
+	cardViewAllTrigger: 1800, // int
+	filterCriteria: undefined, // object
+	attachmentUploadUrl: undefined, // string
+	attachmentName: "attachment", // string
+	tooltip: undefined, // sap.ui.core.TooltipBase
+	customData: [], // sap.ui.core.CustomData
+	layoutData: undefined, // sap.ui.core.LayoutData
+	cards: [], // sap.suite.ui.commons.NoteTakerCard
+	addCard: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	deleteCard: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	editCard: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	attachmentSelect: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	attachmentUploadComplete: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	attachmentDelete: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	attachmentClick: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this]
+})
+]]></jsTemplate>
+</Template>
+<Template name="sap.suite.ui.commons.NoteTakerCard" alias="NoteTakerCard,Card">
+	<jsTemplate><![CDATA[new sap.suite.ui.commons.NoteTakerCard({
+	id: "${id}", // sap.ui.core.ID
+	header: undefined, // string
+	body: undefined, // string
+	timestamp: new Date(), // object
+	tags: [], // object
+	viewAllTrigger: 1800, // int
+	uid: undefined, // string
+	isFiltered: false, // boolean
+	thumbUp: undefined, // boolean
+	thumbDown: undefined, // boolean
+	allTags: [], // object
+	attachmentFilename: undefined, // string
+	attachmentUrl: undefined, // string
+	tooltip: undefined, // sap.ui.core.TooltipBase
+	customData: [], // sap.ui.core.CustomData
+	layoutData: undefined, // sap.ui.core.LayoutData
+	editNote: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	deleteNote: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	attachmentClick: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this]
+})
+]]></jsTemplate>
+</Template>
+<Template name="sap.suite.ui.commons.NoteTakerFeeder" alias="NoteTakerFeeder,Feeder">
+	<jsTemplate><![CDATA[new sap.suite.ui.commons.NoteTakerFeeder({
+	id: "${id}", // sap.ui.core.ID
+	body: undefined, // string
+	title: undefined, // string
+	tags: [], // object
+	thumbUp: undefined, // boolean
+	thumbDown: undefined, // boolean
+	attachmentUploadUrl: undefined, // string
+	attachmentName: "attachment", // string
+	tooltip: undefined, // sap.ui.core.TooltipBase
+	customData: [], // sap.ui.core.CustomData
+	layoutData: undefined, // sap.ui.core.LayoutData
+	addNote: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	attachmentSelect: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	attachmentUploadComplete: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	attachmentDelete: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this],
+	attachmentClick: [function (oEvent) {
+		var ${control} = oEvent.getSource();
+	}, this]
+})
+]]></jsTemplate>
+</Template>
+<Template name="sap.suite.ui.commons.SplitButton" alias="SplitButton,Button">
+	<jsTemplate><![CDATA[new sap.suite.ui.commons.SplitButton({
+	id: "${id}", // sap.ui.core.ID
+	visible: true, // boolean
+	enabled: true, // boolean
+	lite: false, // boolean
+	style: sap.ui.commons.ButtonStyle.Default, // sap.ui.commons.ButtonStyle
+	styled: true, // boolean
+	iconFirst: true, // boolean
+	text: '', // string
+	icon: '', // sap.ui.core.URI
+	tooltip: undefined, // sap.ui.core.TooltipBase
+	customData: [], // sap.ui.core.CustomData
+	layoutData: undefined, // sap.ui.core.LayoutData
+	menu: undefined // sap.ui.commons.Menu
+})
+]]></jsTemplate>
+</Template>
+</Library>

@@ -1,0 +1,140 @@
+{
+  "modules" : [
+    {
+      "name" : "sap.suite.ui.commons.DateRangeScroller",
+      "description" : "Provides control sap.suite.ui.commons.DateRangeScroller.",
+      "size" : 31251,
+      "compressedSize" : 11154,
+      "required" : ["sap.suite.ui.commons.library", "sap.ui.core.Control", "sap.ui.commons.Label", "sap.ui.core.format.DateFormat", "sap.suite.ui.commons.util.DateUtils", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.DateRangeScrollerRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved",
+      "size" : 4176,
+      "compressedSize" : 2405,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.DateRangeSlider",
+      "description" : "Provides control sap.suite.ui.commons.DateRangeSlider.",
+      "size" : 41454,
+      "compressedSize" : 10251,
+      "required" : ["sap.suite.ui.commons.library", "sap.ui.core.Control", "jquery.sap.resources", "sap.suite.ui.commons.util.DateUtils", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.DateRangeSliderInternal",
+      "description" : "Provides control sap.suite.ui.commons.DateRangeSliderInternal.",
+      "size" : 51011,
+      "compressedSize" : 18242,
+      "required" : ["sap.suite.ui.commons.library", "sap.ui.commons.RangeSlider", "jquery.sap.resources", "sap.ui.core.format.DateFormat", "sap.ui.core.ResizeHandler", "sap.ui.commons.Label", "sap.suite.ui.commons.util.DateUtils", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.DateRangeSliderInternalRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved",
+      "size" : 15411,
+      "compressedSize" : 5650,
+      "required" : ["sap.ui.commons.RangeSliderRenderer", "sap.ui.core.Renderer", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.DateRangeSliderRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved",
+      "size" : 1189,
+      "compressedSize" : 502,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.NoteTaker",
+      "description" : "Provides control sap.suite.ui.commons.NoteTaker.",
+      "size" : 72581,
+      "compressedSize" : 20559,
+      "required" : ["sap.suite.ui.commons.library", "sap.ui.core.Control", "sap.ui.commons.Carousel", "sap.ui.commons.SearchField", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.NoteTakerCard",
+      "description" : "Provides control sap.suite.ui.commons.NoteTakerCard.",
+      "size" : 62593,
+      "compressedSize" : 24739,
+      "required" : ["sap.suite.ui.commons.library", "sap.ui.core.Control", "sap.ui.core.Locale", "sap.ui.core.format.DateFormat", "sap.ui.ux3.OverlayContainer", "sap.ui.commons.Link", "sap.ui.commons.MessageBox", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.NoteTakerCardRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved",
+      "size" : 7964,
+      "compressedSize" : 4062,
+      "required" : ["sap.suite.ui.commons.util.RenderUtils", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.NoteTakerFeeder",
+      "description" : "Provides control sap.suite.ui.commons.NoteTakerFeeder.",
+      "size" : 46988,
+      "compressedSize" : 17759,
+      "required" : ["sap.suite.ui.commons.library", "sap.ui.core.Control", "sap.ui.ux3.ToolPopup", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.NoteTakerFeederRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved",
+      "size" : 7274,
+      "compressedSize" : 4150,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.NoteTakerRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved",
+      "size" : 4798,
+      "compressedSize" : 2824,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.SplitButton",
+      "description" : "Provides control sap.suite.ui.commons.SplitButton.",
+      "size" : 22459,
+      "compressedSize" : 5107,
+      "required" : ["sap.suite.ui.commons.library", "sap.ui.core.Control", "sap.ui.commons.Button", "sap.ui.commons.MenuButton", "sap.ui.commons.MenuItem", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.SplitButtonRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved",
+      "size" : 1230,
+      "compressedSize" : 514,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.library",
+      "description" : "Initialization Code and shared classes of library sap.suite.ui.commons (1.12.1)",
+      "size" : 1436,
+      "compressedSize" : 727,
+      "required" : ["sap.ui.core.Core", "sap.ui.core.library", "sap.ui.commons.library", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.util.DateUtils",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved",
+      "size" : 12219,
+      "compressedSize" : 4623,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.suite.ui.commons.util.RenderUtils",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved",
+      "size" : 2183,
+      "compressedSize" : 1150,
+      "required" : ["sap.ui.base.Object", "jquery.sap.global"],
+      "includes" : []
+    }
+  ]
+}

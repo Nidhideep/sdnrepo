@@ -1,0 +1,121 @@
+<?xml version="1.0" ?>
+<library name="sap.me">
+  <module name="sap.me.Calendar" size="39355" compressedSize="10536">
+    <description>Provides control sap.me.Calendar.</description>
+    <requires>
+      <module name="sap.me.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.CalendarLegend" size="19907" compressedSize="5396">
+    <description>Provides control sap.me.CalendarLegend.</description>
+    <requires>
+      <module name="sap.me.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.IconPool"/>
+      <module name="sap.ui.core.theming.Parameters"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.CalendarLegendRenderer" size="2759" compressedSize="1488">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2013 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.CalendarRenderer" size="6866" compressedSize="3162">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2013 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.OverlapCalendar" size="27681" compressedSize="8694">
+    <description>Provides control sap.me.OverlapCalendar.</description>
+    <requires>
+      <module name="sap.me.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.me.Calendar"/>
+      <module name="sap.ui.core.theming.Parameters"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.OverlapCalendarEvent" size="14633" compressedSize="959">
+    <description>Provides control sap.me.OverlapCalendarEvent.</description>
+    <requires>
+      <module name="sap.me.library"/>
+      <module name="sap.ui.core.Element"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.OverlapCalendarRenderer" size="4087" compressedSize="2341">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2013 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.ProgressIndicator" size="13265" compressedSize="3487">
+    <description>Provides control sap.me.ProgressIndicator.</description>
+    <requires>
+      <module name="sap.me.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.ProgressIndicatorRenderer" size="3345" compressedSize="1812">
+    <description>Provides default renderer for control sap.ui.commons.ProgressIndicator</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.TabContainer" size="24463" compressedSize="5481">
+    <description>Provides control sap.me.TabContainer.</description>
+    <requires>
+      <module name="sap.me.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.IconPool"/>
+      <module name="sap.ui.core.theming.Parameters"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.TabContainerRenderer" size="2711" compressedSize="1569">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2013 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.me.library" size="3593" compressedSize="826">
+    <description>Initialization Code and shared classes of library sap.me (1.12.1)</description>
+    <requires>
+      <module name="sap.ui.core.Core"/>
+      <module name="sap.ui.core.library"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+      <module name="sap.me.CalendarDesign"/>
+      <module name="sap.me.CalendarEventType"/>
+    </includes>
+  </module>
+</library>

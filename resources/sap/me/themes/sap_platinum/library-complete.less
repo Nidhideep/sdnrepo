@@ -1,0 +1,298 @@
+
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+ *
+ * (c) Copyright 2009-2012 SAP AG. All rights reserved
+ */
+/* Global CSS for 'base' theme */
+
+// $BEGIN_BASE_LESS$
+
+@sapHighlightColor: #fff;
+@sapBaseColor: #ddd;
+
+@sapContent_DisabledTextColor: lighten(#000, 60);   //#000 = @sapTextColor
+@sapField_Background: #fff;
+@sapField_BorderColor: darken(desaturate(@sapBaseColor, 46), 28);
+@sapField_HelpBackground: desaturate(@sapBaseColor, 24);
+@sapField_Hover_Background: @sapField_Background;
+@sapField_Hover_BorderColor: @sapField_BorderColor;
+@sapField_Hover_HelpBackground: @sapField_Hover_BorderColor;   //check
+@sapField_Focus_Background: #fef09e;
+@sapField_Focus_BorderColor: @sapField_BorderColor;
+@sapField_Focus_HelpBackground: @sapField_Focus_Background;   //check
+@sapField_ReadOnly_Background: @sapField_Background;   //check
+@sapField_ReadOnly_BorderColor: @sapField_BorderColor;   //check
+@sapField_ReadOnly_HelpBackground: @sapField_ReadOnly_Background;   //check
+@sapField_Disabled_Background: @sapUrGroup_PRIMARY_Background;
+@sapField_Disabled_BorderColor: lighten(saturate(@sapField_BorderColor, 10), 14);
+@sapField_Disabled_HelpBackground: @sapField_Disabled_Background;   //check
+@sapField_RequiredColor: #d0001d;
+@sapField_InvalidColor: #d0001d;
+@sapField_InvalidBackground: lighten(desaturate(@sapField_InvalidColor, 31), 54);
+@sapField_WarningColor: #fffcb5;
+@sapField_WarningBackground: lighten(desaturate(@sapField_WarningColor, 31), 54);
+@sapField_SuccessColor: green;
+@sapField_SuccessBackground: lighten(desaturate(@sapField_SuccessColor, 31), 54);
+@sapUrGroup_PRIMARY_Background: lighten(@sapBaseColor, 10);
+
+// $END_BASE_LESS$
+
+// Semantic Theming Mapping
+@sapUiContentDisabledTextColor: @sapContent_DisabledTextColor;
+@sapUiFieldBackground: @sapField_Background;
+@sapUiFieldBorderColor: #BFBFBF;
+@sapUiFieldHelpBackground: @sapField_Background;
+@sapUiFieldHoverBackground: @sapField_Hover_Background;
+@sapUiFieldHoverBorderColor: @sapField_Hover_BorderColor;
+@sapUiFieldHoverHelpBackground: @sapField_Hover_HelpBackground;
+@sapUiFieldFocusBackground: @sapField_Background;
+@sapUiFieldFocusBorderColor: @sapField_Focus_BorderColor;
+@sapUiFieldFocusHelpBackground: @sapField_Background;
+@sapUiFieldReadOnlyBackground: #808080;
+@sapUiFieldReadOnlyBorderColor: @sapField_ReadOnly_BorderColor;
+@sapUiFieldReadOnlyHelpBackground: #808080;
+@sapUiFieldDisabledBackground: @sapField_Background;
+@sapUiFieldDisabledBorderColor: @sapField_BorderColor;
+@sapUiFieldDisabledHelpBackground: @sapField_Background;
+@sapUiFieldRequiredColor: @sapField_BorderColor;
+@sapUiFieldInvalidColor: #FF0000;
+@sapUiFieldInvalidBackground: #FF9A90;
+@sapUiFieldWarningColor: #FFFF00;
+@sapUiFieldWarningBackground: #FAF2B0;
+@sapUiFieldSuccessColor: @sapField_SuccessColor;
+@sapUiFieldSuccessBackground: @sapField_SuccessBackground;
+
+
+// Brand Colors
+@sapUiBrand: #F0AB00;     // SAP Gold #f0ab00
+@sapUiHighlight: #111177;
+@sapUiSelected: @sapUiHighlight;
+@sapUiActive: @sapUiHighlight;
+
+// Accent Colors
+@sapUiPurple: purple;
+@sapUiOrange: orange;
+@sapUiGreen: green;
+@sapUiBlue: blue;
+@sapUiRed: red;
+@sapUiYellow: yellow;
+
+// Base Colors
+@sapUiBase: black;
+@sapUiBaseBG: white;
+@sapUiBaseBorder: @sapUiBase;
+@sapUiBaseText: @sapUiBase;
+@sapUiBaseLine: @sapUiBase;
+
+// Background Colors
+// Grayscale Backgrounds
+@sapUiWhite: #FFFFFF;
+@sapUiExtraLightBG: @sapUiBaseBG;
+@sapUiLightBG: lightgray;
+@sapUiMediumBG: gray;
+@sapUiDarkBG: darkgray;
+@sapUiDeepBG: black;
+@sapUiBlackBG: #000000;
+
+// Tinted Backgrounds
+@sapUiHoverBG: grey;
+@sapUiMediumAltBG: grey;
+@sapUiDarkAltBG: darkgrey;
+
+// Button Background Colors
+@sapUiButtonStandardBG: @sapUiBaseBG;
+@sapUiButtonEmphasizedBG: yellow;
+@sapUiButtonNegativeBG: red;
+@sapUiButtonPositiveBG: green;
+
+// Semantic Background Colors
+@sapUiErrorBG: #FF9A90;
+@sapUiWarningBG: #FAF2B0;
+@sapUiReadOnlyBG: grey;
+
+// Text Colors
+@sapUiExtraLightText: lightgray;
+@sapUiLightText: lightgray;
+@sapUiMediumText: grey;
+@sapUiDarkText: darkgrey;
+@sapUiDeepText: black;
+@sapUiText: @sapUiBaseText; // black
+@sapUiTextInverted: @sapUiWhite;
+
+// Link
+@sapUiLink: #0000FF;
+@sapUiLinkInverted: @sapUiLink;
+@sapUiLinkVisited: #800080;               // the color for a vistited link 
+@sapUiLinkActive: #FF0000;                // the color for a link while being clicked 
+@sapUiLinkHover: #FF0000;                 // the color for a link while being hovered 
+
+// Semantic Text Colors
+@sapUiNegativeText: red;
+@sapUiPositiveText: #B5E7A8;
+
+// Grayscale Borders
+@sapUiExtraLightBorder: lightgrey;
+@sapUiLightBorder: grey;
+@sapUiMediumBorder: @sapUiBaseBorder;
+@sapUiDarkBorder: @sapUiBaseBorder;
+
+// Semantic Border Colors
+@sapUiErrorBorder: red;
+@sapUiWarningBorder: yellow;
+
+// Line Colors
+@sapUiLightLine: lightgrey;
+@sapUiMediumLine: grey;
+@sapUiEmphasizedLine: @sapUiHighlight;
+@sapUiDarkLine: darkgrey;
+
+// Table Colors
+@sapUiTableRowBG: @sapUiWhite;
+@sapUiTableRowAlternatingBG: @sapUiWhite;
+@sapUiTableRowSelectionBG: @sapUiHighlight;
+@sapUiTableRowSelectionReadOnlyBG: @sapUiHighlight;
+@sapUiTableRowHoverBG: @sapUiHoverBG;
+
+// MOBILE-specific, but still very global-like:
+@sapUiListBG: #f7f7f7;
+
+
+/* ---------------------------------------------------------------------------------------- */
+/* TMP during LESS convertion ---- to be deleted */
+@sapUiTextColor: green; /* may be required by SubstitutionRulesManager.css in inbox lib */
+@sapUiTextTitleColor: green;
+@sapUiTextSelectionColor: green;
+
+/* ---------------------------------------------------------------------------------------- */
+
+@sapUiTextDisabled: lighten(@sapUiText, 60%); // the color for disabled text
+@sapUiTextTitle: @sapUiText;  // the text color for titles of all kinds
+@sapUiTextSelection: @sapUiTextInverted; // the color for selected text
+@sapUiTextfieldBackground: @sapUiWhite; // better to have an own parameter insted of using sapUiWhite
+
+@sapUiLineHeight: 21px;
+
+@sapUiFontFamily: Arial,Helvetica,sans-serif;  // the default font
+@sapUiFontMonospaceFamily: Lucida Console;     // the default monospacefont
+@sapUiFontSize: medium;                        // the default font size
+@sapUiFontLargeSize: large;                    // TODO: might also be title font size
+@sapUiFontSmallSize: small;
+@sapUiFontHeader1Size: xx-large;
+@sapUiFontHeader2Size: x-large;
+@sapUiFontHeader3Size: @sapUiFontLargeSize;
+@sapUiFontHeader4Size: @sapUiFontSize;
+@sapUiFontHeader5Size: @sapUiFontSize;
+@sapUiFontHeader6Size: @sapUiFontSize;
+
+// SOME important control-specific parameters...
+
+@sapUiButtonBorderColor: @sapUiMediumBorder; // needed beacuse different in GR and UX
+@sapUiButtonBackgroundColor: @sapUiButtonStandardBG; // to be renamed????
+@sapUiButtonDisabledBorderColor: @sapUiMediumBorder; // needed because different in GR, HCB and UX
+@sapUiButtonDisabledBackgroundColor: @sapUiExtraLightBG; // needed, different in every theme
+@sapUiButtonHoverBorderColor: @sapUiMediumBorder; // needed beacuse different in GR and UX
+@sapUiButtonHoverBackgroundColor: @sapUiMediumBG; // needed beacuse different in GR, Platinum and UX
+@sapUiButtonActiveBorderColor: @sapUiMediumBorder; // needed beacuse different in GR and UX
+@sapUiButtonActiveBackgroundColor: @sapUiDarkBG; // needed beacuse different in GR, Platinum and UX
+@sapUiButtonEmphasizedBorderColor: @sapUiButtonBorderColor;
+@sapUiButtonEmphasizedBackgroundColor: @sapUiButtonEmphasizedBG;
+@sapUiButtonEmphasizedDisabledBorderColor: @sapUiButtonEmphasizedBorderColor;
+@sapUiButtonEmphasizedDisabledBackgroundColor: @sapUiButtonEmphasizedBackgroundColor;
+@sapUiButtonEmphasizedHoverBorderColor: @sapUiButtonHoverBorderColor;
+@sapUiButtonEmphasizedHoverBackgroundColor: @sapUiButtonHoverBackgroundColor;
+@sapUiButtonEmphasizedActiveBorderColor: @sapUiButtonActiveBorderColor;
+@sapUiButtonEmphasizedActiveBackgroundColor: @sapUiButtonActiveBackgroundColor;
+@sapUiButtonAcceptBorderColor: @sapUiButtonBorderColor; 
+@sapUiButtonAcceptBackgroundColor: @sapUiButtonPositiveBG;
+@sapUiButtonAcceptDisabledBorderColor: @sapUiButtonAcceptBorderColor;
+@sapUiButtonAcceptDisabledBackgroundColor: @sapUiButtonAcceptBackgroundColor;
+@sapUiButtonAcceptHoverBorderColor: @sapUiButtonHoverBorderColor;
+@sapUiButtonAcceptHoverBackgroundColor: @sapUiButtonHoverBackgroundColor;
+@sapUiButtonAcceptActiveBorderColor: @sapUiButtonActiveBorderColor;
+@sapUiButtonAcceptActiveBackgroundColor: @sapUiButtonActiveBackgroundColor;
+@sapUiButtonRejectBorderColor: @sapUiButtonBorderColor;
+@sapUiButtonRejectBackgroundColor: @sapUiButtonNegativeBG;
+@sapUiButtonRejectDisabledBorderColor: @sapUiButtonRejectBorderColor;
+@sapUiButtonRejectDisabledBackgroundColor: @sapUiButtonRejectBackgroundColor;
+@sapUiButtonRejectHoverBorderColor: @sapUiButtonHoverBorderColor;
+@sapUiButtonRejectHoverBackgroundColor: @sapUiButtonHoverBackgroundColor;
+@sapUiButtonRejectActiveBorderColor: @sapUiButtonActiveBorderColor;
+@sapUiButtonRejectActiveBackgroundColor: @sapUiButtonActiveBackgroundColor;
+@sapUiButtonLiteBackgroundColor: transparent;
+@sapUiToggleButtonPressedDisabledBackgroundColor: #D8D8E8;
+@sapUiToggleButtonPressedBackgroundColor: @sapUiHighlight;
+
+// semantic colors
+@sapUiPositiveBG: @sapUiPositiveText; // no positive background defined by UX, but using text color as background may be confusing
+
+// default shadow for popups 
+@sapUiShadowTint: #000;
+@sapUiShadow: 5px 5px 10px fade(@sapUiShadowTint,50%);
+/* This CSS shares it rules with all other CSS of this library */
+
+.sapMeCalendar{
+	position: relative;
+	margin: auto;
+}
+
+.sapMeCalendar > .sapMeCalendarPrevious{
+	position: absolute;
+	left:0;
+	z-index: 1;
+}
+
+.sapMeCalendar > .sapMeCalendarNext{
+	position: absolute;
+	right:0;
+	z-index: 1;
+}
+
+.sapMeCalendar > .sapMeCalendarMonth{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+}
+
+.sapMeCalendar > .sapMeCalendarMonth > div.sapMeCalendarMonthName{
+	text-align: center;
+	font-size:1em;
+    line-height:1.2em;
+    padding:0.7em 0 0.4em 0;
+    font-weight:700;
+    height: 44px; /* the height of the prevBtn & nextBtn */
+}
+
+
+.sapMeCalendar > .sapMeCalendarMonth > div > .sapMeCalendarMonthDay{
+	text-align: center;
+	display: inline-block;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+
+.sapMeCalendar > .sapMeCalendarMonth > div.sapMeCalendarMonthDays > .sapMeCalendarMonthDay{	
+    padding: 15px 0px;
+}
+.sapMeCalendar > .sapMeCalendarMonth > div.sapMeCalendarMonthDays > .sapMeCalendarMonthDay > *{
+	pointer-events: none; /* to avoid tap events inside --> best practice is do a Day control */	
+}
+.sapUIMeOverlapCalendar {
+}
+.sapMeOverlapCalendarGrid{
+	
+}
+.sapMeOverlapCalendarRow{
+	
+}
+.sapMeOverlapCalendarDay{
+	text-align: center;
+	display: inline-block;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	padding: 15px 0px;
+	border: 1px solid gray;
+}

@@ -1,0 +1,100 @@
+{
+  "modules" : [
+    {
+      "name" : "sap.me.Calendar",
+      "description" : "Provides control sap.me.Calendar.",
+      "size" : 39355,
+      "compressedSize" : 10536,
+      "required" : ["sap.me.library", "sap.ui.core.Control", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.CalendarLegend",
+      "description" : "Provides control sap.me.CalendarLegend.",
+      "size" : 19907,
+      "compressedSize" : 5396,
+      "required" : ["sap.me.library", "sap.ui.core.Control", "sap.ui.core.IconPool", "sap.ui.core.theming.Parameters", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.CalendarLegendRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2013 SAP AG. All rights reserved",
+      "size" : 2759,
+      "compressedSize" : 1488,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.CalendarRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2013 SAP AG. All rights reserved",
+      "size" : 6866,
+      "compressedSize" : 3162,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.OverlapCalendar",
+      "description" : "Provides control sap.me.OverlapCalendar.",
+      "size" : 27681,
+      "compressedSize" : 8694,
+      "required" : ["sap.me.library", "sap.ui.core.Control", "sap.me.Calendar", "sap.ui.core.theming.Parameters", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.OverlapCalendarEvent",
+      "description" : "Provides control sap.me.OverlapCalendarEvent.",
+      "size" : 14633,
+      "compressedSize" : 959,
+      "required" : ["sap.me.library", "sap.ui.core.Element", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.OverlapCalendarRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2013 SAP AG. All rights reserved",
+      "size" : 4087,
+      "compressedSize" : 2341,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.ProgressIndicator",
+      "description" : "Provides control sap.me.ProgressIndicator.",
+      "size" : 13265,
+      "compressedSize" : 3487,
+      "required" : ["sap.me.library", "sap.ui.core.Control", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.ProgressIndicatorRenderer",
+      "description" : "Provides default renderer for control sap.ui.commons.ProgressIndicator",
+      "size" : 3345,
+      "compressedSize" : 1812,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.TabContainer",
+      "description" : "Provides control sap.me.TabContainer.",
+      "size" : 24463,
+      "compressedSize" : 5481,
+      "required" : ["sap.me.library", "sap.ui.core.Control", "sap.ui.core.IconPool", "sap.ui.core.theming.Parameters", "jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.TabContainerRenderer",
+      "description" : "! SAP UI development toolkit for HTML5 (SAPUI5)  (c) Copyright 2009-2013 SAP AG. All rights reserved",
+      "size" : 2711,
+      "compressedSize" : 1569,
+      "required" : ["jquery.sap.global"],
+      "includes" : []
+    },
+    {
+      "name" : "sap.me.library",
+      "description" : "Initialization Code and shared classes of library sap.me (1.12.1)",
+      "size" : 3593,
+      "compressedSize" : 826,
+      "required" : ["sap.ui.core.Core", "sap.ui.core.library", "jquery.sap.global"],
+      "includes" : ["sap.me.CalendarDesign", "sap.me.CalendarEventType"]
+    }
+  ]
+}

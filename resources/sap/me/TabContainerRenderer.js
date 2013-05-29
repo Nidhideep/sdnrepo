@@ -1,0 +1,7 @@
+/*!
+ * SAP UI development toolkit for HTML5 (SAPUI5)
+ * 
+ * (c) Copyright 2009-2013 SAP AG. All rights reserved
+ */
+jQuery.sap.declare("sap.me.TabContainerRenderer");sap.me.TabContainerRenderer={};
+sap.me.TabContainerRenderer.render=function(r,c){if(!c.getVisible()){return}r.write("<div");r.writeControlData(c);r.addClass("sapUIMeTabContainer");r.writeClasses();r.writeStyles();r.write(">");r.write("<div ");r.addClass("sapUIMeTabContainerButtons");r.writeClasses();r.write(">");var b=c.getAggregation("tabs");var a=c.getAggregation("badges");if(b){if(jQuery.isArray(b)){for(var i=0;i<b.length;i++){var t=b[i].getCustomData();if(c._getContentForBtn(b[i].getId())){r.write("<div ");r.addClass("sapUIMeTabContainerTab");r.writeClasses();r.write(">");if(a&&a[i].getText()!=""){r.renderControl(a[i])}r.renderControl(b[i]);r.write("</div>")}}}else if(b){r.write("<div ");r.addClass("sapUIMeTabContainerTab");r.writeClasses();r.write(">");if(a&&a[0].getText()!=""){r.renderControl(a[0])}r.renderControl(b);r.write("</div>")}}r.write("</div>");var I=c.getSelectedTab();var C=c._getContentForBtn(b[I].getId());if(C!=undefined){r.write("<div ");r.addClass("sapUIMeTabContainerContent");r.writeClasses();r.write(">");r.write("<div id='"+c.getId()+"-arrow'");r.addClass("sapUIMeTabContainerContentArrow");r.writeClasses();r.write(">");r.write("</div>");r.write("<div id='"+c.getId()+"-container'");r.write(" style='height:auto'");r.addClass("sapUIMeTabContainerTabContent");r.writeClasses();r.write(">");r.renderControl(C);r.write("</div>");r.write("</div>")}r.write("</div>")};

@@ -1,0 +1,181 @@
+<?xml version="1.0" ?>
+<library name="sap.suite.ui.commons">
+  <module name="sap.suite.ui.commons.DateRangeScroller" size="31251" compressedSize="11154">
+    <description>Provides control sap.suite.ui.commons.DateRangeScroller.</description>
+    <requires>
+      <module name="sap.suite.ui.commons.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.commons.Label"/>
+      <module name="sap.ui.core.format.DateFormat"/>
+      <module name="sap.suite.ui.commons.util.DateUtils"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.DateRangeScrollerRenderer" size="4176" compressedSize="2405">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.DateRangeSlider" size="41454" compressedSize="10251">
+    <description>Provides control sap.suite.ui.commons.DateRangeSlider.</description>
+    <requires>
+      <module name="sap.suite.ui.commons.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="jquery.sap.resources"/>
+      <module name="sap.suite.ui.commons.util.DateUtils"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.DateRangeSliderInternal" size="51011" compressedSize="18242">
+    <description>Provides control sap.suite.ui.commons.DateRangeSliderInternal.</description>
+    <requires>
+      <module name="sap.suite.ui.commons.library"/>
+      <module name="sap.ui.commons.RangeSlider"/>
+      <module name="jquery.sap.resources"/>
+      <module name="sap.ui.core.format.DateFormat"/>
+      <module name="sap.ui.core.ResizeHandler"/>
+      <module name="sap.ui.commons.Label"/>
+      <module name="sap.suite.ui.commons.util.DateUtils"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.DateRangeSliderInternalRenderer" size="15411" compressedSize="5650">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="sap.ui.commons.RangeSliderRenderer"/>
+      <module name="sap.ui.core.Renderer"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.DateRangeSliderRenderer" size="1189" compressedSize="502">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.NoteTaker" size="72581" compressedSize="20559">
+    <description>Provides control sap.suite.ui.commons.NoteTaker.</description>
+    <requires>
+      <module name="sap.suite.ui.commons.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.commons.Carousel"/>
+      <module name="sap.ui.commons.SearchField"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.NoteTakerCard" size="62593" compressedSize="24739">
+    <description>Provides control sap.suite.ui.commons.NoteTakerCard.</description>
+    <requires>
+      <module name="sap.suite.ui.commons.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.core.Locale"/>
+      <module name="sap.ui.core.format.DateFormat"/>
+      <module name="sap.ui.ux3.OverlayContainer"/>
+      <module name="sap.ui.commons.Link"/>
+      <module name="sap.ui.commons.MessageBox"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.NoteTakerCardRenderer" size="7964" compressedSize="4062">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="sap.suite.ui.commons.util.RenderUtils"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.NoteTakerFeeder" size="46988" compressedSize="17759">
+    <description>Provides control sap.suite.ui.commons.NoteTakerFeeder.</description>
+    <requires>
+      <module name="sap.suite.ui.commons.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.ux3.ToolPopup"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.NoteTakerFeederRenderer" size="7274" compressedSize="4150">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.NoteTakerRenderer" size="4798" compressedSize="2824">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.SplitButton" size="22459" compressedSize="5107">
+    <description>Provides control sap.suite.ui.commons.SplitButton.</description>
+    <requires>
+      <module name="sap.suite.ui.commons.library"/>
+      <module name="sap.ui.core.Control"/>
+      <module name="sap.ui.commons.Button"/>
+      <module name="sap.ui.commons.MenuButton"/>
+      <module name="sap.ui.commons.MenuItem"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.SplitButtonRenderer" size="1230" compressedSize="514">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.library" size="1436" compressedSize="727">
+    <description>Initialization Code and shared classes of library sap.suite.ui.commons (1.12.1)</description>
+    <requires>
+      <module name="sap.ui.core.Core"/>
+      <module name="sap.ui.core.library"/>
+      <module name="sap.ui.commons.library"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.util.DateUtils" size="12219" compressedSize="4623">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+  <module name="sap.suite.ui.commons.util.RenderUtils" size="2183" compressedSize="1150">
+    <description>! SAP UI development toolkit for HTML5 (SAPUI5) (c) Copyright 2009-2012 SAP AG. All rights reserved</description>
+    <requires>
+      <module name="sap.ui.base.Object"/>
+      <module name="jquery.sap.global"/>
+    </requires>
+    <includes>
+    </includes>
+  </module>
+</library>
